@@ -74,7 +74,7 @@ ul{
     display:flex;
     padding:40px 16px;
     gap:16px;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -82,6 +82,7 @@ ul{
     display:flex;
     flex-direction: column;
     gap:16px;
+    flex:1;
 
 
 }
@@ -100,17 +101,23 @@ ul{
 }
 
 .top-right{
-    background-color:#5a616a;
     display:flex;
-    justify-content: center;
-    align-items: center;
-    color: #e5e7eb
+    
 
 }
 
+.placeholder-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#5a616a;
+    max-width: 400px;
+}
 
 .placeholder-text{
     text-align: center;
+        color: #e5e7eb;
+
 }
 
 /* INFO SECTION */
